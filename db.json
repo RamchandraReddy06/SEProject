@@ -1,0 +1,14 @@
+{
+  "users": [
+   
+    {
+      "userRole": "Admin",
+      "firstName": "new",
+      "lastName": "new",
+      "phone": "123456789",
+      "email": "new@gmail.com",
+      "pass": "123",
+      "id": 3
+    }
+  ]
+}
