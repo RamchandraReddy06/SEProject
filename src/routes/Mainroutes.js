@@ -8,6 +8,9 @@ import Mycourses from '../components/Mycourses';
 import Login from '../components/Login';
 import  Navbar  from '../components/Navbar';
 import Footer from '../components/Footer';
+import SOP from '../components/courseDetail/SOP';
+import CN from '../components/courseDetail/CN';
+import SE from '../components/courseDetail/SE';
 
 
 const Mainroutes = () => {
@@ -21,6 +24,9 @@ const Mainroutes = () => {
         <Route path="jobs" element={<Jobs/>} />
         <Route path="mycourses" element={<Mycourses/>} />
         <Route path="navbar" element={<Navbar/>} />
+        <Route path="SOP" element={<SOP/>} />
+        <Route path="CN" element={<CN/>} />
+        <Route path="SE" element={<SE/>} />
       </Routes>
       <Footer/>
     </div>
