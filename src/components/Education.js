@@ -11,7 +11,7 @@ const Jobs = () => {
           <div>
             <div className="flex items-center gap-x-3">
               <h6 className="text-2xl font-bold text-gray-800 dark:text-white">
-                Current Jobs
+                Universities
               </h6>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Jobs = () => {
                 aria-expanded="true"
                 aria-haspopup="true"
               >
-                Job Types
+                Degree level
                 <svg
                   className="-mr-1 h-5 w-5 text-gray-400"
                   viewBox="0 0 20 20"
@@ -102,7 +102,7 @@ const Jobs = () => {
                 aria-expanded="true"
                 aria-haspopup="true"
               >
-                Job Location
+                Location
                 <svg
                   className="-mr-1 h-5 w-5 text-gray-400"
                   viewBox="0 0 20 20"
@@ -185,14 +185,14 @@ const Jobs = () => {
                         scope="col"
                         className="py-3.5 px-4 text-sm font-normal text-leftrtl:text-right text-gray-500 dark:text-gray-400"
                       >
-                        Company
+                        University
                       </th>
 
                       <th
                         scope="col"
                         className="py-3.5 px-4 text-sm font-normal text-leftrtl:text-right text-gray-500 dark:text-gray-400"
                       >
-                        Role
+                        Degree
                       </th>
 
                       <th
@@ -213,7 +213,7 @@ const Jobs = () => {
                         scope="col"
                         className="py-3.5 px-4 text-sm font-normal text-leftrtl:text-right text-gray-500 dark:text-gray-400"
                       >
-                        Positions Available
+                        Acceptance Rate
                       </th>
                     </tr>
                   </thead>
@@ -223,16 +223,16 @@ const Jobs = () => {
                         <div>
                           <a
                             className="font-medium text-gray-800 dark:text-white"
-                            href="https://jobs.careers.microsoft.com/global/en/search?qcity=Boydton&qstate=Virginia&qcountry=United%20States"
+                            href="https://www.uchicago.edu/en"
                             target="_blank"
                           >
-                            <u>Microsoft</u>
+                            <u>The University of Chicago</u>
                           </a>
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
                         <div className="inline px-3 py-1 text-sm font-normal rounded-full dark:text-gray-500 gap-x-2 dark:bg-gray-800">
-                        Threat Intelligence Analyst
+                        MSCS
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
@@ -247,7 +247,7 @@ const Jobs = () => {
                             href="https://www.google.com/maps/dir/41.8250752,-87.6118016/Abbott+Park+Rd,+Lake+Bluff,+IL/@42.0626101,-88.0331878,10z/data=!4m10!4m9!1m1!4e1!1m5!1m1!1s0x880f93821b047097:0x2f20e0626089145d!2m2!1d-87.8944668!2d42.3008372!3e0"
                             target="_blank"
                           >
-                            Multiple Locations, Germany
+                            Chicago, Illinios
                           </a>
                         </div>
                       </td>
@@ -265,34 +265,34 @@ const Jobs = () => {
                         <div>
                           <a
                             className="font-medium text-gray-800 dark:text-white"
-                            href="https://careers.google.com"
+                            href="https://www.mit.edu"
                             target="_blank"
                           >
-                            <u>Google</u>
+                            <u>Massachusetts Institute of Technology</u>
                           </a>
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
                         <div className="inline px-3 py-1 text-sm font-normal rounded-full dark:text-gray-500 gap-x-2 dark:bg-gray-800">
-                          Software Development Engineer II
+                          MS in data Science
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
                         <div className="inline px-3 py-1 text-sm font-normal text-emerald-500 bg-emerald-100/60 rounded-full dark:text-gray-400 gap-x-2 dark:bg-gray-800">
-                          Part-Time
+                          Hybrid
                         </div>
                       </td>
                       <td className="px-4 py-4 text-sm whitespace-nowrap">
                         <div>
                           <h4 className="text-gray-700 dark:text-gray-200">
-                            Hybrid
+                          Cambridge, MA
                           </h4>
                         </div>
                       </td>
                       <td className="px-4 py-4 text-sm whitespace-nowrap">
                         <div>
                           <h4 className="text-gray-700 dark:text-gray-200">
-                            2
+                            15
                           </h4>
                         </div>
                       </td>
@@ -303,17 +303,16 @@ const Jobs = () => {
                         <div>
                           <a
                             className="font-medium text-gray-800 dark:text-white"
-                            href="https://www.nvidia.com/en-us/about-nvidia/careers/"
+                            href="https://www.princeton.edu"
                             target="_blank"
                           >
-                            <u>NVIDIA</u>
+                            <u>Princeton University</u>
                           </a>
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
                         <div className="inline px-3 py-1 text-sm font-normal rounded-full dark:text-gray-500 gap-x-2 dark:bg-gray-800">
-                        Senior Graphics Software Engineer
-
+                        MBA
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
@@ -328,14 +327,14 @@ const Jobs = () => {
                             href="https://www.google.com/maps/dir/41.8250752,-87.6118016/McCormick+Tribune+Campus+Center,+3201+S+State+St,+Chicago,+IL+60616/@41.8293508,-87.6257505,15.93z/data=!4m10!4m9!1m1!4e1!1m5!1m1!1s0x880e2c0d2b228d5b:0xb312938ee22ce81d!2m2!1d-87.6258095!2d41.8351397!3e0"
                             target="_blank"
                           >
-                            Santa Clara, CA, US
+                            Princeton, New Jersey
                           </a>
                         </div>
                       </td>
                       <td className="px-4 py-4 text-sm whitespace-nowrap">
                         <div>
                           <h4 className="text-gray-700 dark:text-gray-200">
-                            5
+                            20
                           </h4>
                         </div>
                       </td>
@@ -346,16 +345,16 @@ const Jobs = () => {
                         <div>
                           <a
                             className="font-medium text-gray-800 dark:text-white"
-                            href="https://www.tesla.com/careers/search/?site=US"
+                            href="https://www.osu.edu"
                             target="_blank"
                           >
-                            <u>Tesla</u>
+                            <u>The Ohio State University</u>
                           </a>
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
                         <div className="inline px-3 py-1 text-sm font-normal rounded-full dark:text-gray-500 gap-x-2 dark:bg-gray-800">
-                        Manufacturing Development Program
+                        MAS AI
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
@@ -370,14 +369,14 @@ const Jobs = () => {
                             href="https://www.google.com/maps/dir/41.8335736,-87.6119545/SAP+Labs+(Building+1),+3410+Hillview+Ave,+Palo+Alto,+CA+94304/@39.1495625,-115.6066064,5z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x808fba9dd56e51d9:0xbdac82f84b5f44ba!2m2!1d-122.1465488!2d37.3988271!3e0"
                             target="_blank"
                           >
-                            	Austin, Texas
+                            	Columbus, Ohio
                           </a>
                         </div>
                       </td>
                       <td className="px-4 py-4 text-sm whitespace-nowrap">
                         <div>
                           <h4 className="text-gray-700 dark:text-gray-200">
-                            8
+                            53
                           </h4>
                         </div>
                       </td>
@@ -388,34 +387,34 @@ const Jobs = () => {
                         <div>
                           <a
                             className="font-medium text-gray-800 dark:text-white"
-                            href="https://www.oracle.com/careers/"
+                            href="https://www.nd.edu"
                             target="_blank"
                           >
-                            <u>Oracle</u>
+                            <u>University of Notre Dame</u>
                           </a>
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
                         <div className="inline px-3 py-1 text-sm font-normal rounded-full dark:text-gray-500 gap-x-2 dark:bg-gray-800">
-                        Quality Assurance Tester Intern
+                        MBA
                         </div>
                       </td>
                       <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
                         <div className="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800">
-                          Intern
+                          Part-Time
                         </div>
                       </td>
                       <td className="px-4 py-4 text-sm whitespace-nowrap">
                         <div>
                           <h4 className="text-gray-700 dark:text-gray-200">
-                            Redwood City, CA, United States
+                          Notre Dame, Indiana
                           </h4>
                         </div>
                       </td>
                       <td className="px-4 py-4 text-sm whitespace-nowrap">
                         <div>
                           <h4 className="text-gray-700 dark:text-gray-200">
-                            2
+                            13
                           </h4>
                         </div>
                       </td>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../images/Logo.png";
-import { NavLink, Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const SignUp = () => {
@@ -49,7 +49,7 @@ const SignUp = () => {
     pass
   ) => {
     axios
-      .post("http://localhost:5000/users", {
+      .post('/db.json', {
         userRole: userRole,
         firstName: firstName,
         lastName: lastName,
@@ -102,7 +102,7 @@ const SignUp = () => {
 
   const getLists = () => {
     axios
-      .get("http://localhost:5000/users")
+      .get('/db.json')
       .then((res) => {
         setExistingUsers(res.data);
       })

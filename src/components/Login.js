@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../images/Logo.png";
+import Homeimg from "../images/Homeimg.png";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import axios from "axios";
 const Login = () => {
@@ -11,8 +11,9 @@ const Login = () => {
 
   const checkUserDetailsInDb = () => {
     axios
-      .get("http://localhost:5000/users")
+      .get('/db.json')
       .then((res) => {
+        console.log(res);
         setExistingUsers(res.data);
       })
       .catch((err) => {
@@ -41,7 +42,7 @@ const Login = () => {
 
   const loginBtn = (e) => {
     e.preventDefault();
-
+    
     // let result = checkEmailAndPassword(email, pass);
     // console.log('arpit', result);
     
@@ -53,11 +54,11 @@ const Login = () => {
   };
 
   return (
-    <div style={{ margin: "100px" }}>
+    <div style={{ margin: "50px" }}>
       <div className="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
         <div className="px-6 py-4">
           <div className="flex justify-center mx-auto">
-            <img className="object-scale-down h-20 w-20" src={Logo} alt="" />
+            <img className="object-scale-down h-20 w-20" src={Homeimg} alt="" />
           </div>
 
           <h3 className="mt-3 text-xl font-medium text-center text-gray-600 dark:text-gray-200">
@@ -98,7 +99,19 @@ const Login = () => {
               >
                 Forget Password?
               </NavLink>
-              <button onClick={(e) => loginBtn(e)}>Login</button>
+              <button
+                onClick={(e) => loginBtn(e)}
+                style={{
+                  backgroundColor: "#4285F4" /* Blue */,
+                  color: "#fff" /* White */,
+                  padding: "5px 15px",
+                  border: "none",
+                  borderRadius: "5px",
+                  cursor: "pointer",
+                }}
+              >
+                Login
+              </button>
             </div>
           </form>
         </div>

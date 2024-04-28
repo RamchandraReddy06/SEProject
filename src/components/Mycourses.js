@@ -7,8 +7,9 @@ import SOP from "../images/SOP.jpg";
 
 const Mycourses = () => {
   return (
-    <div style={{display:"flex"}}>
+    <div >
       <Navbar/>
+      <div class="tileName" style={{display:"flex", marginTop:"10px"}}>
       <div
         style={{ margin: "auto" }}
         class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 hover:shadow-2xl dark:hover:shadow-black/30"
@@ -222,6 +223,7 @@ const Mycourses = () => {
             <a href='mailto:tase@iit.edu' class="px-2 text-sm text-gray-700">Connect with TA</a>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

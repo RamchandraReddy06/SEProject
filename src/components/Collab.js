@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Profile_Pic from "../images/Profile_Pic.jpeg";
+import Footer from "./Footer";
 
 const Collab = () => {
   return (
     <>
-      <div style={{ display: "flex" }}>
+      <div >
         <Navbar />
 
         {/* <!-- component --> */}
@@ -30,7 +31,7 @@ const Collab = () => {
                   />
           </div>
           {/* <!-- end header -->
-    <!-- Chatting --> */}
+        <!-- Chatting --> */}
           <div className="flex flex-row justify-between bg-white">
             {/* <!-- chat list --> */}
             <div className="flex flex-col w-2/5 border-r-2 overflow-y-auto">
@@ -43,8 +44,8 @@ const Collab = () => {
                   />
                 </div>
                 <div className="w-full">
-                  <div className="text-lg font-semibold">Luis1994</div>
-                  <span className="text-gray-500">Pick me at 9:00 Am</span>
+                  <div className="text-lg font-semibold">Aaryl</div>
+                  <span className="text-gray-500">Busssy</span>
                 </div>
               </div>
               <div className="flex flex-row py-4 px-2 items-center border-b-2">
@@ -56,8 +57,8 @@ const Collab = () => {
                   />
                 </div>
                 <div className="w-full">
-                  <div className="text-lg font-semibold">Everest Trip 2021</div>
-                  <span className="text-gray-500">Hi Sam, Welcome</span>
+                  <div className="text-lg font-semibold">SE Team Project</div>
+                  <span className="text-gray-500">Hi Ram, Welcome to the group</span>
                 </div>
               </div>
               <div className="flex flex-row py-4 px-2 items-center border-b-2 border-l-4 border-blue-400">
@@ -69,8 +70,8 @@ const Collab = () => {
                   />
                 </div>
                 <div className="w-full">
-                  <div className="text-lg font-semibold">MERN Stack</div>
-                  <span className="text-gray-500">Lusi : Thanks Everyone</span>
+                  <div className="text-lg font-semibold">Vivaldi</div>
+                  <span className="text-gray-500">Thakyou</span>
                 </div>
               </div>
               <div className="flex flex-row py-4 px-2 items-center border-b-2">
@@ -83,10 +84,10 @@ const Collab = () => {
                 </div>
                 <div className="w-full">
                   <div className="text-lg font-semibold">
-                    Javascript Indonesia
+                  Pranav
                   </div>
                   <span className="text-gray-500">
-                    Evan : some one can fix this
+                    Football at 9:00pm
                   </span>
                 </div>
               </div>
@@ -100,10 +101,10 @@ const Collab = () => {
                 </div>
                 <div className="w-full">
                   <div className="text-lg font-semibold">
-                    Javascript Indonesia
+                    Mozart
                   </div>
                   <span className="text-gray-500">
-                    Evan : some one can fix this
+                    The composition is a work of art
                   </span>
                 </div>
               </div>
@@ -118,10 +119,10 @@ const Collab = () => {
                 </div>
                 <div className="w-full">
                   <div className="text-lg font-semibold">
-                    Javascript Indonesia
+                  Beethoven
                   </div>
                   <span className="text-gray-500">
-                    Evan : some one can fix this
+                    i can play better.
                   </span>
                 </div>
               </div>
@@ -135,10 +136,10 @@ const Collab = () => {
                 </div>
                 <div className="w-full">
                   <div className="text-lg font-semibold">
-                    Javascript Indonesia
+                    Bach
                   </div>
                   <span className="text-gray-500">
-                    Evan : some one can fix this
+                    I'd love to work with you on ur next piece.
                   </span>
                 </div>
               </div>
@@ -146,7 +147,7 @@ const Collab = () => {
               {/* <!-- end user list --> */}
             </div>
             {/* <!-- end chat list -->
-      <!-- message --> */}
+        <!-- message --> */}
             <div className="w-full px-5 flex flex-col justify-between">
               <div className="flex flex-col mt-5">
                 <div className="flex justify-end mb-4">
@@ -197,7 +198,7 @@ const Collab = () => {
                     alt=""
                   />
                   <div className="ml-2 py-3 px-4 bg-gray-400 rounded-br-3xl rounded-tr-3xl rounded-tl-xl text-white">
-                    happy holiday guys!
+                    happy Hunting!
                   </div>
                 </div>
               </div>
@@ -211,7 +212,9 @@ const Collab = () => {
             </div>
           </div>
         </div>
+        
       </div>
+      
     </>
   );
 };
